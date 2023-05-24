@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618038280284",
+    "project_id": "ucanchat-b2bf2",
+    "storage_bucket": "ucanchat-b2bf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618038280284:android:46c1dd6bece30de564a699",
+        "android_client_info": {
+          "package_name": "com.example.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618038280284-bld0j04862l73159qpgg80eim0cotv5f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgC18m0FgKoedgXQbb2tNrQBr4G1NbulY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618038280284-bld0j04862l73159qpgg80eim0cotv5f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Welcome to AppChat"
+            android:fontFamily="@font/aladin"
+            android:textColor="@color/black"
+            android:textSize="40sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="__________________________________________"
+            android:layout_marginTop="-10dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/InputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/bg_input"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:maxLines="1"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/InputPassword"
+                android:layout_width="365dp"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_input"
+                android:hint="Password"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:maxLength="16"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:animateLayoutChanges="true">
+
+                <Button
+                    android:id="@+id/SignInButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Sign In"
+                    android:textColor="@color/white"
+                    android:background="@drawable/bg_roundbtn"
+                    android:textAllCaps="false"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp"/>
+                
+                <ProgressBar
+                    android:id="@+id/ProgressBar"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                        android:layout_gravity="center"
+                        android:visibility="invisible"/>
+                
+        </FrameLayout>
+
+        
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an Account ?"
+            android:textSize="17sp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/SignUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_roundbtn"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aladin</item>
+        <item>@font/alatsi</item>
+        <item>@font/aldrich</item>
+        <item>@font/alef</item>
+        <item>@font/bangers</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/lemon</item>
+        <item>@font/oleo_script</item>
+        <item>@font/salsa</item>
+        <item>@font/sancreek</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

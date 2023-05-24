@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AppChat" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#6f85b3</item>
+        <item name="colorPrimaryDark">#6f85b3</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Dialog">
+        <item name="android:windowBackground">
+            @drawable/empty_bg</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowFixedWidthMajor">80pt</item>
+        <item name="android:windowAnimationStyle">@style/Animate</item>
+    </style>
+
+    <style name="Animate">
+        <item name="android:windowEnterAnimation">@anim/slide_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_scale_out</item>
+    </style>
+</resources>
