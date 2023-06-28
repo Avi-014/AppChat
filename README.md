@@ -1,4 +1,4 @@
-![Screenshot_20230628-182221](https://github.com/Avi-014/AppChat/assets/121863813/6b0c4c72-0d30-4b51-8a04-16c1f813525e)# **AppChat**
+# **AppChat**
 
 AppChat is an Android application designed to help peoples to talk virtually.
 The app uses **Firebase Database** to provide more Security.
